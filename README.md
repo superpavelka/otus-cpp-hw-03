@@ -37,3 +37,6 @@ https://docs.travis-ci.com/user/deployment/pages/
 отличающихся типов 
  найдите самый простой способ сделать для печати `std::string` 
  бинарный файл и пакет должны называться `print_ip`  
+
+# github-pages
+https://superpavelka.github.io/otus-cpp-hw-03/
