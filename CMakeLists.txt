@@ -29,15 +29,6 @@ SET_TARGET_PROPERTIES (
 # Linking
 
 # Compiler options
-if (MSVC)
-    target_compile_options(print_ip PRIVATE
-        /W4
-    )
-else ()
-    target_compile_options(print_ip PRIVATE
-        -Wall -Wextra -pedantic -Werror
-    )
-endif()
 
 # Package
 SET(CPACK_GENERATOR "DEB")
